@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Call Of Nature</string>
+    <string name="dashboard_title">Did Nature Call You Today?</string>
+    <string name="follow_up">Did nature call you more than once today?</string>
 </resources>
