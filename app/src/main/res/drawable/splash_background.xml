@@ -5,11 +5,11 @@
         android:bottom="0dp"
         android:left="0dp"
         android:right="0dp"
-        android:drawable="@drawable/gradient_splash"></item>
+        android:drawable="@color/white"></item>
 
-    <item android:drawable="@drawable/logo"
-        android:height="200dp"
-        android:width="200dp"
+    <item android:drawable="@drawable/icon"
+        android:height="150dp"
+        android:width="150dp"
         android:gravity="center"></item>
 
 </layer-list>
