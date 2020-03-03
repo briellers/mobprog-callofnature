@@ -33,6 +33,7 @@ public class LoginActivity extends AppCompatActivity {
                 Boolean checkLogin = db.usernamepassword(s1, s2);
 
                 if(checkLogin == true) {
+
                     Toast.makeText(getApplicationContext(), "Login successful!", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(LoginActivity.this, DashboardActivity.class);
                     startActivity(intent);
