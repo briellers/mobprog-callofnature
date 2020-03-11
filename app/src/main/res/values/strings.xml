@@ -2,4 +2,37 @@
     <string name="app_name">Call Of Nature</string>
     <string name="dashboard_title">Did Nature Call You Today?</string>
     <string name="follow_up">Did nature call you more than once today?</string>
+
+    <string name="about_title">ABOUT</string>
+    <string name="about">
+        Call of Nature is a simple mobile application developed by Brielle
+        Romero for her final project in her Mobile Programming class.
+        This app is intended to track the times when nature calls.
+    </string>
+
+    <string name="howto_title">HOW TO USE</string>
+    <string name="howto">
+        This app is as simple as it sounds. It asks you if nature called
+        you today. You simply respond yes or no. Tap profile if you
+        want to see a log of all the times you\'ve been called by nature.
+    </string>
+
+    // MAIN
+    <string name="sign_in">SIGN IN</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm">Confirm Password</string>
+
+    // DASHBOARD
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="profile">PROFILE</string>
+    <string name="help">HELP</string>
+    <string name="settings">SETTINGS</string>
+
+    <string name="backtomenu">BACK TO MENU</string>
+    <string name="delete">DELETE ALL DATA</string>
+    <string name="logout">LOG OUT</string>
 </resources>

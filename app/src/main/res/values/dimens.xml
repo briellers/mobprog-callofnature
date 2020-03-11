@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="zero">0dp</dimen>
+    <dimen name="eight">8dp</dimen>
+    <dimen name="sixteen">16dp</dimen>
+    <dimen name="twofour">24dp</dimen>
+    <dimen name="threetwo">32dp</dimen>
+    <dimen name="threesix">36dp</dimen>
+    <dimen name="fourtwo">42dp</dimen>
+    <dimen name="threefive">35dp</dimen>
+    <dimen name="sixfour">64dp</dimen>
+
+    <dimen name="dash_logo">152dp</dimen>
+    <dimen name="dash_logo_width">222dp</dimen>
+    <dimen name="dash_logo_height">141dp</dimen>
+    <dimen name="yes_left">94dp</dimen>
+
+    <dimen name="one">100dp</dimen>
+    <dimen name="three">300dp</dimen>
+
+    <dimen name="poop">184dp</dimen>
+    <dimen name="logo">66dp</dimen>
+    <dimen name="logo_width">310dp</dimen>
+
+    <dimen name="gif_top">116dp</dimen>
+    <dimen name="logo_top">264dp</dimen>
+    <dimen name="help_gif_top">68dp</dimen>
+    <dimen name="help_logo_top">216dp</dimen>
+</resources>

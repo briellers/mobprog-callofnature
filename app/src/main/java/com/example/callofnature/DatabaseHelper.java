@@ -29,29 +29,25 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         contentValues.put("password", password);
         long ins = db.insert("user", null, contentValues);
 
-        if(ins == -1)
-            return false;
-        else
-            return true;
+        return ins != -1;
     }
 
     public Boolean checkUser(String email) {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery("SELECT * FROM user WHERE email=?", new String[]{email});
 
-        if(cursor.getCount() > 0)
-            return false;
-        else
-            return true;
+        return cursor.getCount() <= 0;
     }
 
     public Boolean usernamepassword(String email, String password) {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery("SELECT * FROM user WHERE email=? AND password=?", new String[]{email, password});
 
-        if(cursor.getCount() > 0)
-            return true;
-        else
-            return false;
+        return cursor.getCount() > 0;
+    }
+
+    public void deleteAccount(String username) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.delete("user", "user" + "=?", new String[]{username});
     }
 }

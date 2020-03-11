@@ -46,6 +46,7 @@ public class RegistrationActivity extends AppCompatActivity {
                                 Toast.makeText(getApplicationContext(), "Registered successfully", Toast.LENGTH_SHORT).show();
                                 Intent intent = new Intent(RegistrationActivity.this, LoginActivity.class);
                                 startActivity(intent);
+                                finish();
                             }
                         }
 

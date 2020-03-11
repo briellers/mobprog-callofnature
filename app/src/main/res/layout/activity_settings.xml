@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/main_bg"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/gifImageView"
@@ -19,40 +19,54 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/reg"
-        android:layout_width="wrap_content"
+        android:id="@+id/delete"
+        android:layout_width="@dimen/three"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/threefive"
         android:layout_marginTop="@dimen/eight"
-        android:layout_marginEnd="@dimen/one"
         android:background="@drawable/button_general"
-        android:text="@string/register"
+        android:text="@string/delete"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/login"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backtomenu" />
+
+    <Button
+        android:id="@+id/backtomenu"
+        android:layout_width="@dimen/three"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/eight"
+        android:background="@drawable/button_general"
+        android:text="@string/backtomenu"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/login"
-        android:layout_width="wrap_content"
+        android:id="@+id/logout"
+        android:layout_width="@dimen/three"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/one"
         android:layout_marginTop="@dimen/eight"
         android:background="@drawable/button_general"
-        android:text="@string/sign_in"
+        android:text="@string/logout"
         android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/delete" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="310dp"
         android:layout_height="66dp"
+        android:layout_marginStart="@dimen/zero"
         android:layout_marginTop="@dimen/logo_top"
-        android:contentDescription="@string/app_name"
+        android:layout_marginEnd="@dimen/zero"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/context" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
